@@ -1,0 +1,127 @@
+body {
+    background-image: url('fundo5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*Não consegui mudar a fonte principal*/
+.container {
+    width: 100%;
+    max-width: 700px;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #ddd
+    
+}
+
+h1 {
+    color: #ddd;
+}
+
+
+button {
+    padding: 8px 16px;
+    background-color:transparent;
+    color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid #ddd
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+form {
+    text-align: center;
+}
+/*Aqui foi onde tive uma dificuldade pois as vezes me confundo com algumas palavras*/
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: arial;
+    color: #ddd;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    
+    width: 48%;
+    padding: 8px;
+    margin: 5px;
+    margin-bottom: 1px solid #ddd;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+form select option {
+    background-color:#722ef1; 
+    color: #ddd; /*aqui é o fundo do checked*/
+}
+
+form select option:checked {
+    background-color: #722ef1; 
+    color: #ddd; /* aqui e a parte do checked excluido*/
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10%;
+    margin-top: center;
+}
+
+th, td {
+    padding: 8px;
+    color: #ddd;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+}
+
+th {
+    background-color:transparent;
+    color: #ddd;
+}
+
+#user-list tr:nth-child(even) {
+    background-color: transparent;
+}
+
+#user-list tr:hover {
+    background-color: #722ef1;
+}
+
+#user-form {
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+#user-form h2 {
+    margin-top: 0;
+    color: #ddd;
+}
+
+#cancel {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#cancel:hover {
+    background-color: transparent;
+}
